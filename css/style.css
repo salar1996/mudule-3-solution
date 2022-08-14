@@ -20,15 +20,17 @@ div#header-full a, div#header-full button{
     margin: 15px;
 }
 
+hr{
+    width: 80%;
+    margin: -5px auto;
+}
+
 
 nav li a{
     padding-left: 20px;
-    text-align: center;
 }
 
-nav li hr{
-    margin: -5px ;
-}
+
 
 #navbarNav{
     background-color: aliceblue;
