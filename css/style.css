@@ -1,0 +1,212 @@
+/* colors
+#61122f moroon
+#f6b319 yellow
+#951c49  moroon2
+
+ */
+
+
+
+body{
+    font-family: 'Oxygen', sans-serif;
+    background-color: #61122f;
+    color: white;
+}
+
+#nav-bar{
+    background-color: #f6b319 ;
+}
+
+div.navbar-brand{
+    margin-top: 30px;
+}
+
+div.navbar-brand a{
+    font-size: 1.5em;
+    color: #557c3e;
+    text-shadow: 1px 1px 1px #444;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+div.navbar-brand p{
+    font-size: .7em;
+}
+
+div.navbar-brand p span{
+    vertical-align: middle;
+}
+
+.menu-icons{
+color: #951c49;
+font-size: 2.5em;
+}
+
+
+.navbar-nav{
+    display: inline-block;
+}
+
+.navbar-nav li{
+margin: 0 5px;;
+}
+a.navbar-nav{
+    display: inline-block;
+}
+
+#navbarNav{
+    flex-grow: 0;
+}
+
+#phone-call{
+    font-size: 28px;
+    font-weight: 500;
+    color: #951c49;
+    margin-left: 50px
+}
+
+#we-deliver{
+    color: #557c3e;
+    font-size: 1.2em;
+}
+
+.nav-item{
+padding: 10px 15px  0 15px;
+}
+
+.nav-item:hover{
+background-color: rgba(255,255, 255, .4);
+}
+
+div#navbarNav a p{
+    color: #951c49;
+    font-weight:500;
+}
+
+button.navbar-toggler{
+    border: 2px solid #951c49;
+}
+
+
+#menu-icon-bars{
+    color: #951c49;
+}
+
+#mobile-call{
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: #f6b319;
+    padding: 10px;
+    margin-top: 15px ;
+    color: #61122f;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#we-deliver-mobile{
+    font-size: .9em;
+}
+
+#main-image img{
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 50px #3f0c1f;
+}
+
+div#menu-tile , div#special-tile, div#map-tile{
+    position: relative;
+    height: 250px;
+    margin: 15px 0;
+    border: 2px solid #3f0c1f;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+div#menu-tile{
+    background: url('../images/menu-tile.jpg') no-repeat center;
+}
+ 
+div#special-tile{
+    background: url('../images/specials-tile.jpg') no-repeat center;
+}
+
+div#menu-tile:hover , div#special-tile:hover, div#map-tile:hover{
+box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+div#menu-tile span, div#special-tile span, div#map-tile span{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    color: white;
+    background-color: #000;
+    opacity: 80%;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+
+@media (max-width: 575px) {
+    div#menu-tile , div#special-tile {
+        width: 360px;
+        margin: 15px auto;
+    }
+}
+ /* END OF CONTENT */
+
+
+ /* BEGIN FOOTER */
+
+footer{
+    position: relative;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: #222 ;
+}
+
+footer div.container{
+    margin-bottom: 45px;
+}
+
+footer div#footer-hours , footer div#footer-address{
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer div, footer p{
+    line-height: 2;
+    text-align: center;
+
+}
+
+p#footer-delivery{
+    font-size: .8em;
+    color: #557c3e;
+    margin-top: 10px;
+}
+
+footer  div#footer-sometext p{
+    font-style: italic;
+    line-height: 1.5;
+}
+
+div.copyright{
+    position: absolute;
+    margin-top: 15px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #111;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ /* END OF FOOTER */
+
